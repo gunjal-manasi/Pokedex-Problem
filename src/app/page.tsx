@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 
 import { Container, Typography, Box } from "@mui/material";
 import { FilterablePokedexTable } from "@/components/FilterablePokedexTable";
