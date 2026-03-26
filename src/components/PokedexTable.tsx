@@ -183,8 +183,8 @@ export const PokedexTable = ({ pokemons }: { pokemons: Pokemon[] }) => {
                   <img
                     src={pokemon.sprite}
                     alt={pokemon.name}
-                    width={50}
-                    height={50}
+                    width={80}
+                    height={80}
                     style={{ objectFit: "contain", display: "block" }}
                   />
                 </TableCell>
