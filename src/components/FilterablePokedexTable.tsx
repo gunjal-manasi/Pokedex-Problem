@@ -145,7 +145,7 @@ export const FilterablePokedexTable = () => {
         </Box>
       )}
 
-      {/* ONE table for all results — with pagination inside PokedexTable */}
+      
       {!isLoading && mode !== null && (
         <Box sx={{ mt: 3 }}>
           <Typography variant="h6" fontWeight={700} gutterBottom>

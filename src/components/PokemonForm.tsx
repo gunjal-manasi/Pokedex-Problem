@@ -72,7 +72,7 @@ const PokemonForm = () => {
   return (
     <Box sx={{ mt: 2 }}>
 
-      {/* Search bar — stacks on mobile */}
+      
       <Stack
         direction={{ xs: "column", sm: "row" }}
         spacing={1.5}
@@ -80,7 +80,7 @@ const PokemonForm = () => {
       >
         <TextField
           fullWidth
-          label="Search Pokémon"
+          label="Search Pokmon"
           placeholder="e.g. Bulbasaur"
           value={input}
           onChange={(e) => setInput(e.target.value)}
